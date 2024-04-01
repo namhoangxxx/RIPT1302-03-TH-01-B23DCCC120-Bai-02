@@ -34,7 +34,7 @@ function displayStudents() {
 }
 
 function saveStudent(index) {
-    var row = document.getElementById('studentTable').rows[index + 1]; // +1 để bỏ qua hàng đầu tiên (tiêu đề)
+    var row = document.getElementById('studentTable').rows[index + 1]; // 
     students[index] = {
         name: row.cells[1].innerText,
         age: row.cells[2].innerText,
